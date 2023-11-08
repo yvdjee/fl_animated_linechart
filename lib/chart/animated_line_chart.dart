@@ -644,10 +644,10 @@ class ChartPainter extends CustomPainter {
               }
             }
 
-            if (drawCircles) {
-              canvas.drawCircle(
-                  Offset(p.chartPoint.x, p.chartPoint.y), 2, _linePainter);
-            }
+            // if (drawCircles) {
+            //   canvas.drawCircle(
+            //       Offset(p.chartPoint.x, p.chartPoint.y), 2, _linePainter);
+            // }
           });
         }
       }
